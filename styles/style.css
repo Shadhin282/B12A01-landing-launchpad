@@ -40,7 +40,9 @@
     font-size: 16px;
     font-weight: bold;
 }
-
+.btn:hover{
+    background-color: gold;
+}
 .banner-section{
     text-align: center;
     height: 237px;
@@ -57,7 +59,7 @@
 
 /* Action Section style */
 .action-section{
-    margin: 116px 159px 0px 141px;
+    margin: 116px 159px 116px 141px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -85,4 +87,88 @@
     height: 328px;
 }
 
+/* Productive User Section Style */
+.productive-user{
+    background-color:rgba(191, 228, 243, 0.823);
+    margin-left: 141px;
+    margin-right: 159px;
+    text-align: center;
+    padding: 50px 142px;
+    border-radius: 24px;
+}
 
+.productive-user-title h2{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.productive-user-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.productive-user-subtitle h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+    margin-bottom: 24px;
+}
+
+.productive-user-subtitle p{
+    font-size: 20px;
+    font-weight: 400;
+    color:#252432;
+    opacity: 50%;
+}
+
+/*User Feedback Section Styel */
+.user-feedback{
+    margin: 137px 159px 0px 141px;
+}
+
+.user-feedback-title{
+    text-align: center;
+    font-size: 45px;
+}
+.card{
+    display: flex;
+    gap: 40px;
+}
+.review-card{
+    background-color: aqua;
+    width:450px;
+    padding:24px;
+    border-radius: 14px
+
+}
+
+.review-card h4{
+    font-size: 36px;
+    font-weight: 600;    
+}
+
+.review-card p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.review-card .review-star img{
+    height: 30px;
+}
+.reviewer{
+    display: flex;
+    justify-content:left;
+    gap:10px;
+}
+
+.reviewer img{
+    border-radius: 50%;
+    border: none;
+}
+
+.reviewer h3{
+    color: #757575;
+}
+.reviewer p{
+    color: #B3B3B3;
+}
