@@ -11,6 +11,9 @@
   font-style: normal;
 }
 
+body{
+    background-color: rgb(190, 217, 228);   
+}
 /*banner style*/
 .banner{
     height: 698px;
@@ -171,4 +174,87 @@
 }
 .reviewer p{
     color: #B3B3B3;
+}
+
+/* Focus Section */
+.focus-section{
+    text-align: center;
+    height: 600px;
+    margin: 116px 159px 116px 141px;
+    padding: 71px 150px;
+    background-color: white;
+    border-radius: 48px;
+    
+}
+
+.focus-section-content{
+    line-height: 20px;
+}
+
+.focus-section-content h1{
+    font-size:50px;
+    font-weight: bold;
+}
+
+.focus-section-content p{
+    color: #000000;
+    opacity: 50%;
+    font-size: 18px;
+}
+.focus-section img{
+    border-radius: 48px;
+    margin: 24px;
+}
+
+/* let's get in touch section style */
+.contact-section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+    margin: 93px 150px 24px 150px;
+    padding: 71px 0px;
+}
+
+.contact-section .left-side{
+    width: 528px;
+    
+}
+.contact-section .left-side h1{
+    font-size:97px;
+
+}
+.contact-section .right-side{
+    height: 490px;
+    width: 497px;
+}
+.contact-section .right-side form input,textarea, button{
+    height: 64px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 24px;
+    border:none;
+}
+
+.contact-section .right-side form label {
+    border: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-section .right-side form textarea{
+    height: 100px;
+}
+
+.contact-section .right-side .form-btn{
+    background-color:#4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
 }
