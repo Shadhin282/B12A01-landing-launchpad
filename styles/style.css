@@ -228,7 +228,7 @@ body{
     height: 490px;
     width: 497px;
 }
-.contact-section .right-side form input,textarea{
+.contact-section .right-side form input,textarea,.form-btn{
     height: 64px;
     border-radius: 10px;
     background-color: white;
@@ -255,9 +255,9 @@ body{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
-    width:100%;
     font-size: 16px;
     font-weight: bold;
+    width:113%;
 }
 .contact-section .right-side .form-btn:hover{
     background-color: gold;
