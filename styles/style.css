@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: rgb(190, 217, 228);   
+    background-color: #f5f8ff;   
 }
 /*banner style*/
 .banner{
@@ -92,7 +92,7 @@ body{
 
 /* Productive User Section Style */
 .productive-user{
-    background-color:rgba(191, 228, 243, 0.823);
+    background-color:#d6d5f9;
     margin-left: 141px;
     margin-right: 159px;
     text-align: center;
@@ -139,7 +139,7 @@ body{
     gap: 40px;
 }
 .review-card{
-    background-color: aqua;
+    background-color: white;
     width:450px;
     padding:24px;
     border-radius: 14px
@@ -259,7 +259,9 @@ body{
     font-size: 16px;
     font-weight: bold;
 }
-
+.contact-section .right-side .form-btn:hover{
+    background-color: gold;
+}
 /* Footer Style */
 footer{
     height: 428px;;
