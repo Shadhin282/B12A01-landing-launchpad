@@ -1,4 +1,4 @@
-
+/* font style Define */
 .raleway {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -10,6 +10,8 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/*banner style*/
 .banner{
     height: 698px;
     width: 100%;
@@ -52,3 +54,35 @@
     color: #252432;
 
 }
+
+/* Action Section style */
+.action-section{
+    margin: 116px 159px 0px 141px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-section .left-side{
+    width: 500px;
+    height: 203px;
+}
+
+.action-section .left-side h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.action-section .left-side h2{
+    font-weight: 400;
+    font-size: 24px;
+    color:#252432;
+    opacity: 50%;
+}
+.action-section .right-side img{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+
+
